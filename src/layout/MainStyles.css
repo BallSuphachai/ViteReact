@@ -1,0 +1,33 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the left */
+}
+  
+.main-nav img {
+    margin-right: 10px; /* Optional: Add some space between the image and the heading */
+}
+  
+.main-nav h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.H2nav {
+    color: #678D58;
+    font-family: sans-serif;
+}
+
+
+.right-nav {
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+  
+.right-nav a {
+    text-decoration: none; /* Optional: Remove underline from links */
+    color: #000; /* Optional: Set link color */
+}
+  
+.right-nav a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
